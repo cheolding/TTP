@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OCRActivity">
+
+    <!--<Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="1.사진 찍고 이미지뷰에서 미리보기"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="2.Button1 기능 + 미리보기 비트맵 내부 저장소에 저장하기"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        tools:layout_editor_absoluteX="8dp" />-->
+
+    <!--<Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="4.사진 찍고, 원본 사진 외부 저장소의 앱 디렉토리에 저장하기"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        tools:layout_editor_absoluteX="8dp" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="386dp"
+        android:layout_height="504dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="카메라 앱으로 사진 찍고, 원본 사진 내부 저장소에 저장하기"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="96dp"
+        android:text="카메라 앱으로 사진 찍고 갤러리 저장"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/activityocr_tv_result"
+        android:layout_width="271dp"
+        android:layout_height="78dp"
+        android:hint="txtview 입력창"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/ocr_button"
+        android:layout_width="97dp"
+        android:layout_height="72dp"
+        android:text="OCR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
